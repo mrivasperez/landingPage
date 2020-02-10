@@ -3,11 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="assets/style.css">
     <title>Landing Page</title>
 </head>
 <body>
-    
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/lego/5.jpg" alt="user">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-3x"></i>
+        </button>
+        <h1>Great Landing Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, inventore.</p>
+        <button class="cta-btn" id="open">Register</button>
+    </header>
+    <div class="container">
+        <h2>Who I am</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam assumenda, quam dolores cupiditate nulla eaque animi quidem perferendis necessitatibus cum eligendi, tempora facere ratione minus, unde voluptates sit ea quod.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, in doloremque at iusto blanditiis harum similique nemo reprehenderit dolore est error doloribus dolores eos ea!</p>
+
+        <h2>My Work</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta porro corrupti excepturi? Incidunt recusandae quibusdam, distinctio, rerum hic excepturi cum eligendi voluptatibus ullam facere accusantium eius doloribus ratione. Esse architecto doloremque sequi tenetur maiores quam possimus, assumenda mollitia nisi excepturi soluta enim sint quisquam, voluptates, itaque necessitatibus dolorum a?</p>
+
+        <h2>Experience</h2>
+
+        <ul>
+            <li>Writing</li>
+            <li>Reading</li>
+            <li>Listening</li>
+        </ul>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quas. Vero delectus est ex dolorem iste. Vero recusandae veniam non dolor voluptas possimus cupiditate magni voluptatum aliquid at error, commodi veritatis temporibus repellat vitae! Cupiditate mollitia aut illo ullam atque. Odit autem iure non tenetur ullam esse. Illum laudantium ipsa veritatis dolor, ducimus deleniti nulla iste unde eos repellat eius.</p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close"><i class="fa fa-times"></i></button>
+            <div class="modal-header">
+                <h3>Register</h3>
+            </div>
+            <div class="modal-content">
+                <p>Regiser to receive an email whenever I write a new blog post.</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter name">
+                    </div>               
+                     <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter email">
+                    </div>
+                    <div>
+                        <label for="name">Confirm email</label>
+                        <input type="text" id="name" placeholder="Confirm email">
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/script.js"></script>
 </body>
