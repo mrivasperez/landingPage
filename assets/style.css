@@ -2,8 +2,8 @@
 
 :root {
     --modal-duration: .5s;
-    --primary-color: #094D92;
-    --secondary-color: #30323D;
+    --primary-color: rgba(88, 135, 255, 0.5);
+    --secondary-color: #444545;
 }
 
 * {
@@ -75,12 +75,12 @@ nav ul li a {
 
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 130%;
     position: relative;
     padding: 40px 15px;
     text-align: center;
-
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 header h1 {
@@ -159,13 +159,14 @@ button:focus {
 
 .modal-header {
     background: var(--primary-color);
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 15px;
     border-bottom: 2px solid #333;
 }
 
 .modal-header h3 {
     margin: 0;
+    font-weight: 500;
 
 }
 
@@ -189,6 +190,7 @@ button:focus {
 
 .close-btn {
     background: transparent;
+    color: black;
     font-size: 25px;
     position: absolute;
     top: 0;
