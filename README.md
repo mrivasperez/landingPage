@@ -1,4 +1,4 @@
-# landingPage: A landing page for persons. [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+# landingPage: A landing page template for persons. [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 by mrivasperez 
 live demo: <https://mrivasperez.github.io/landingPage/>
 ## About
