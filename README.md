@@ -6,8 +6,8 @@ I created this landing page template for people to be able to have their portfol
 
 ## Screenshots
 ![The main page](assets/screenshot.png)
-The main homepage
+**The main homepage**
 ![The navigation bar](assets/screenshot2.png)
-The navigation sidebar.
+**The navigation sidebar.**
 ![The registration modal](assets/screenshot3.png)
-The registration modal.
+**The registration modal.**
